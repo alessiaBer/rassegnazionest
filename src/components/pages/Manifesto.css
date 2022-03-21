@@ -1,0 +1,29 @@
+.manifesto-title {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.manifesto {
+    padding: 50px 300px;
+}
+
+.manifesto p {
+    line-height: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#manifesto-header {
+    margin-top: 120px ;
+}
+
+@media screen and (max-width: 960px) {
+    .manifesto {
+        padding: 50px 30px;
+    }
+}
+
+

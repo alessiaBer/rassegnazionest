@@ -1,0 +1,50 @@
+.header {
+    margin-top: 180px;
+    width: 100%;
+    height: calc(80vh - 60px); 
+    background: url(/public/img/Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading {
+   color: #fff;
+   font-size: 80px;
+   line-height: 60px;
+   margin-bottom: 80px; 
+}
+
+.heading .small {
+    display: block;
+    font-size: 40px;
+}
+
+.heading .no-fill {
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.manifesto-author {
+    color: white;
+}
+
+.manifesto-heading {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        transform: scale(100%);
+    }
+
+    .content {
+        transform: scale(100%);
+    }
+}

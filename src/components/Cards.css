@@ -1,0 +1,44 @@
+h1.article-title {
+    color: black;
+    font-family: 'Karla', sans-serif;
+    line-height: normal;
+    font-size: 30px;
+    padding-top: 10px;
+    font-style: normal;
+}
+
+.cards-container {
+    width: 100%;
+    padding: 50px 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px; 
+}
+
+.article-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.article-author {
+    color: grey;
+}
+
+.article-overview {
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+
+.btn.dark {
+    background: #1b1b1b;
+    color: #fff;
+    text-decoration: none;
+}
+
+.latest-articles {
+    padding-left: 70px;
+    padding-top: 50px;
+}
